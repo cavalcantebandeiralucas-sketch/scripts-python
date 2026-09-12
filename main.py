@@ -1,8 +1,12 @@
-#calculadora de frete para restaurante 
-km=float(input("Digite quantos quilometros é do restaurante ao local de entrega : "))
-valorcompra=float(input("Digite o valor da compra : "))
-if valorcompra >= 100:
-    print("O frete é gratuito")
+#calculadora media faculdade 
+n1=float(input("Digite o valor da N1 :"))
+institucional=float(input("Digite o valor da Institucional :"))
+n2=float(input("Digite o valor da N2 :"))
+media=(n1+(institucional+n2)/2)/2
+print("A média é:", media)
+if media>=6:
+    print("Aprovado")
+elif media<6 and media>=4:
+    print("Você está de recuperação")
 else:
-    entrega=5+km*1.5
-    print("O valor do frete é de R$",entrega)
+    print("Reprovado")
