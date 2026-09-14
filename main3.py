@@ -1,3 +1,5 @@
+#Adivinhe o número secreto
+
 import random  # radom é uma biblioteca do python que permite gerar números aleatórios. Você precisa importar a biblioteca random para poder usar a função randint() que gera um número inteiro aleatório dentro de um intervalo especificado.
 
 secret = random.randint(1, 20)  #random. indica que você está usando a ferramenta que acabou de importar.randint(1, 20) é a função específica que escolhe um número inteiro aleatório (daí o nome random integer) entre 1 e 20.o intervalo que o computador vai escolher o numero secreto
